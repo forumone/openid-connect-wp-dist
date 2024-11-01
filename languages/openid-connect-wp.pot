@@ -1,0 +1,527 @@
+# Copyright (C) 2024 forum1
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenID Connect for WP 0.0.0\n"
+"Report-Msgid-Bugs-To: "
+"https://github.com/forumone/openid-connect-wp-dist/issues\n"
+"POT-Creation-Date: 2024-11-01 18:17:15+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: includes/openid-connect-wp-client-wrapper.php:534
+msgid "User identity is not linked to an existing WordPress user."
+msgstr ""
+
+#: includes/openid-connect-wp-client-wrapper.php:592
+msgid "Invalid user."
+msgstr ""
+
+#: includes/openid-connect-wp-client-wrapper.php:774
+msgid "No appropriate username found."
+msgstr ""
+
+#: includes/openid-connect-wp-client-wrapper.php:784
+#. translators: %1$s is the santitized version of the username from the IDP.
+msgid "Username %1$s could not be sanitized."
+msgstr ""
+
+#: includes/openid-connect-wp-client-wrapper.php:806
+#. translators: %1$s is the configured User Claim nickname key.
+msgid "No nickname found in user claim using key: %1$s."
+msgstr ""
+
+#: includes/openid-connect-wp-client-wrapper.php:903
+msgid "User claim incomplete."
+msgstr ""
+
+#: includes/openid-connect-wp-client-wrapper.php:1006
+msgid "Bad user claim result."
+msgstr ""
+
+#: includes/openid-connect-wp-client-wrapper.php:1072
+msgid "Can not authorize."
+msgstr ""
+
+#: includes/openid-connect-wp-client-wrapper.php:1101
+msgid "Failed user creation."
+msgstr ""
+
+#: includes/openid-connect-wp-client.php:181
+msgid "Missing state."
+msgstr ""
+
+#: includes/openid-connect-wp-client.php:185
+msgid "Invalid state."
+msgstr ""
+
+#: includes/openid-connect-wp-client.php:200
+msgid "Missing authentication code."
+msgstr ""
+
+#: includes/openid-connect-wp-client.php:245
+msgid "Request for authentication token failed."
+msgstr ""
+
+#: includes/openid-connect-wp-client.php:278
+msgid "Refresh token failed."
+msgstr ""
+
+#: includes/openid-connect-wp-client.php:293
+msgid "Missing token body."
+msgstr ""
+
+#: includes/openid-connect-wp-client.php:301
+msgid "Invalid token."
+msgstr ""
+
+#: includes/openid-connect-wp-client.php:354
+msgid "Request for userinfo failed."
+msgstr ""
+
+#: includes/openid-connect-wp-client.php:414
+msgid "Missing authentication state."
+msgstr ""
+
+#: includes/openid-connect-wp-client.php:451
+msgid "No identity token."
+msgstr ""
+
+#: includes/openid-connect-wp-client.php:458
+msgid "Missing identity token."
+msgstr ""
+
+#: includes/openid-connect-wp-client.php:485
+msgid "Bad ID token claim."
+msgstr ""
+
+#: includes/openid-connect-wp-client.php:490
+msgid "No subject identity."
+msgstr ""
+
+#: includes/openid-connect-wp-client.php:496
+msgid "No matching acr values."
+msgstr ""
+
+#: includes/openid-connect-wp-client.php:516
+msgid "Bad user claim."
+msgstr ""
+
+#: includes/openid-connect-wp-client.php:536
+msgid "Invalid user claim."
+msgstr ""
+
+#: includes/openid-connect-wp-client.php:541
+msgid "Error from the IDP."
+msgstr ""
+
+#: includes/openid-connect-wp-client.php:550
+msgid "Incorrect user claim."
+msgstr ""
+
+#: includes/openid-connect-wp-client.php:557
+msgid "Unauthorized access."
+msgstr ""
+
+#: includes/openid-connect-wp-login-form.php:127
+#. translators: %1$s is the error code from the IDP.
+msgid "ERROR (%1$s)"
+msgstr ""
+
+#: includes/openid-connect-wp-login-form.php:146
+msgid "Login with OpenID Connect"
+msgstr ""
+
+#: includes/openid-connect-wp-option-logger.php:230
+msgid "Details"
+msgstr ""
+
+#: includes/openid-connect-wp-option-logger.php:231
+msgid "Data"
+msgstr ""
+
+#: includes/openid-connect-wp-option-logger.php:238
+msgid "Date"
+msgstr ""
+
+#: includes/openid-connect-wp-option-logger.php:242
+msgid "Type"
+msgstr ""
+
+#: includes/openid-connect-wp-option-logger.php:246
+msgid "User"
+msgstr ""
+
+#: includes/openid-connect-wp-option-logger.php:250
+msgid "URI "
+msgstr ""
+
+#: includes/openid-connect-wp-option-logger.php:254
+msgid "Response&nbsp;Time&nbsp;(sec)"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:113
+msgid "OpenID Connect - Generic Client"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:114
+msgid "OpenID Connect Client"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:138
+msgid "Client Settings"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:145
+msgid "WordPress User Settings"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:152
+msgid "Authorization Settings"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:159
+msgid "Log Settings"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:217
+msgid "Login Type"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:218
+msgid "Select how the client (login form) should provide login options."
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:221
+msgid "OpenID Connect button on login form"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:222
+msgid "Auto Login - SSO"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:228
+msgid "Client ID"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:229
+msgid ""
+"The ID this client will be recognized as when connecting the to Identity "
+"provider server."
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:236
+msgid "Client Secret Key"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:237
+msgid ""
+"Arbitrary secret key the server expects from this client. Can be anything, "
+"but should be very unique."
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:243
+msgid "OpenID Scope"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:244
+msgid "Space separated list of scopes this client should access."
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:251
+msgid "Login Endpoint URL"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:252
+msgid "Identify provider authorization endpoint."
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:259
+msgid "Userinfo Endpoint URL"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:260
+msgid "Identify provider User information endpoint."
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:267
+msgid "Token Validation Endpoint URL"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:268
+msgid "Identify provider token endpoint."
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:275
+msgid "End Session Endpoint URL"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:276
+msgid "Identify provider logout endpoint."
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:283
+msgid "ACR values"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:284
+msgid "Use a specific defined authentication contract from the IDP - optional."
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:290
+msgid "Identity Key"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:291
+msgid ""
+"Where in the user claim array to find the user's identification data. "
+"Possible standard values: preferred_username, name, or sub. If you're "
+"having trouble, use \"sub\"."
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:297
+msgid "Disable SSL Verify"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:299
+#. translators: %1$s HTML tags for layout/styles, %2$s closing HTML tag for
+#. styles.
+msgid ""
+"Do not require SSL verification during authorization. The OAuth extension "
+"uses curl to make the request. By default CURL will generally verify the "
+"SSL certificate to see if its valid an issued by an accepted CA. This "
+"setting disabled that verification.%1$sNot recommended for production "
+"sites.%2$s"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:304
+msgid "HTTP Request Timeout"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:305
+msgid "Set the timeout for requests made to the IDP. Default value is 5."
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:311
+msgid "Enforce Privacy"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:312
+msgid "Require users be logged in to see the site."
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:318
+msgid "Alternate Redirect URI"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:319
+msgid ""
+"Provide an alternative redirect route. Useful if your server is causing "
+"issues with the default admin-ajax method. You must flush rewrite rules "
+"after changing this setting. This can be done by saving the Permalinks "
+"settings page."
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:324
+msgid "Nickname Key"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:325
+msgid ""
+"Where in the user claim array to find the user's nickname. Possible "
+"standard values: preferred_username, name, or sub."
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:331
+msgid "Email Formatting"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:332
+msgid ""
+"String from which the user's email address is built. Specify \"{email}\" as "
+"long as the user claim contains an email claim."
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:338
+msgid "Display Name Formatting"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:339
+msgid "String from which the user's display name is built."
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:345
+msgid "Identify with User Name"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:346
+msgid ""
+"If checked, the user's identity will be determined by the user name instead "
+"of the email address."
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:351
+msgid "State time limit"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:352
+msgid "State valid time in seconds. Defaults to 180"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:357
+msgid "Enable Refresh Token"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:358
+msgid ""
+"If checked, support refresh tokens used to obtain access tokens from "
+"supported IDPs."
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:363
+msgid "Link Existing Users"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:364
+msgid ""
+"If a WordPress account already exists with the same identity as a "
+"newly-authenticated user over OpenID Connect, login as that user instead of "
+"generating an error."
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:370
+msgid "Create user if does not exist"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:371
+msgid ""
+"If the user identity is not linked to an existing WordPress user, it is "
+"created. If this setting is not enabled, and if the user authenticates with "
+"an account which is not linked to an existing WordPress user, then the "
+"authentication will fail."
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:377
+msgid "Redirect Back to Origin Page"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:378
+msgid ""
+"After a successful OpenID Connect authentication, this will redirect the "
+"user back to the page on which they clicked the OpenID Connect login "
+"button. This will cause the login process to proceed in a traditional "
+"WordPress fashion. For example, users logging in through the default "
+"wp-login.php page would end up on the WordPress Dashboard and users logging "
+"in through the WooCommerce \"My Account\" page would end up on their "
+"account page."
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:384
+msgid "Redirect to the login screen when session is expired"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:385
+msgid ""
+"When enabled, this will automatically redirect the user back to the "
+"WordPress login page if their access token has expired."
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:391
+msgid "Enable Logging"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:392
+msgid "Very simple log messages for debugging purposes."
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:398
+msgid "Log Limit"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:399
+msgid ""
+"Number of items to keep in the log. These logs are stored as an option in "
+"the database, so space is limited."
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:461
+msgid "Notes"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:464
+msgid "Redirect URI"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:468
+msgid "Login Button Shortcode"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:472
+msgid "Authentication URL Shortcode"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:477
+msgid "Logs"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:566
+msgid "Example"
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:579
+msgid "Enter your OpenID Connect identity provider settings."
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:588
+msgid "Modify the interaction between OpenID Connect and WordPress users."
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:597
+msgid "Control the authorization mechanics of the site."
+msgstr ""
+
+#: includes/openid-connect-wp-settings-page.php:606
+msgid "Log information about login attempts through OpenID Connect for WP."
+msgstr ""
+
+#: openid-connect-wp.php:264
+msgid "Private site"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "OpenID Connect for WP"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/forumone/openid-connect-wp-dist"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Connect to an OpenID Connect identity provider using Authorization Code "
+"Flow."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "forum1"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.forumone.com"
+msgstr ""
